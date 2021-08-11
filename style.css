@@ -19,7 +19,6 @@ html {
   --red: #ec1f46;
   --blu: #0a223d;
   --orange: #f2994a;
-  --light-grey: #bdbdbd;
 }
 
 .container {
@@ -290,7 +289,7 @@ main {
   justify-content: space-between;
 }
 
-.hotel-details div {
+.hotel-details .hotel-details-slide {
   position: relative;
 }
 
@@ -689,7 +688,7 @@ main {
   bottom: 25px;
   width: 120px;
   height: 40px;
-  background-color: var(--red);
+  background-color: #ec1f46;
   border-radius: 4px;
   color: var(--white);
   display: flex;
@@ -706,7 +705,7 @@ main {
   top: 26px;
   width: 60px;
   height: 18px;
-  background-color: var(--red);
+  background-color: #ec1f46;
   color: var(--white);
   font-size: 0.8rem;
   font-weight: 600;
@@ -876,7 +875,7 @@ main {
 }
 
 #left {
-  fill: var(--azurre);
+  fill: #f2f2f2;
   opacity: 0.8;
   position: relative;
   top: 12.8px;
@@ -884,7 +883,7 @@ main {
 }
 
 #right {
-  fill: var(--azurre);
+  fill: #f2f2f2;
   opacity: 0.8;
   transform: rotate(180deg);
   position: relative;
@@ -962,7 +961,7 @@ main {
 }
 
 .input input::placeholder {
-  color: var(--light-grey);
+  color: #bdbdbd;
 }
 
 .input span {
@@ -1129,11 +1128,6 @@ footer {
   margin-left: 10px;
 }
 
-.social #fb {
-  width: 24px;
-  height: 24px;
-}
-
 .footer-bottom-left {
   width: 50%;
   color: grey;
@@ -1211,7 +1205,7 @@ footer {
 #name::placeholder,
 #phone::placeholder {
   padding-left: 24px;
-  color: var(--light-grey);
+  color: #bdbdbd;
   font-size: 1.2rem;
 }
 
@@ -1227,7 +1221,7 @@ footer {
   position: absolute;
   top: 18px;
   left: 24px;
-  color: var(--light-grey);
+  color: #bdbdbd;
   font-size: 1.2rem;
 }
 
